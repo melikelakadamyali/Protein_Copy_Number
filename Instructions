@@ -1,0 +1,5 @@
+1) Add the three files to your Matlab path
+2) Run: fit_log_normal(x_data,y_data);
+3) Extract the μ and σ values (as shown in the graph of the fit)
+4) Run: log_normal_convolution(x_data,y_data,σ,μ,Weights);
+        Weights is a single number of possible protein copies that may exist in your data (See Gyparaki et al, PNAS 2021, supplemental figure4S, G-I).
